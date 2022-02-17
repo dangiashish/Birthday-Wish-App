@@ -9,6 +9,7 @@ import android.os.Handler;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
+import android.widget.Button;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.ViewSwitcher;
@@ -20,6 +21,7 @@ import nl.dionsegijn.konfetti.models.Size;
 public class MainActivity extends AppCompatActivity {
 
     KonfettiView konfettiView;
+    Button btnSetting;
     TextView bdayMsg;
     RelativeLayout layout0, layoutW;
     ViewSwitcher logo0, logo1, logo2, logo3, logow, logox, logoy, logoz;
@@ -39,6 +41,13 @@ public class MainActivity extends AppCompatActivity {
         logoz = findViewById(R.id.logoz);
 
         bdayMsg = findViewById(R.id.bdaywishText);
+        btnSetting = findViewById(R.id.btnSettings);
+        btnSetting.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, SettingsActivity.class));
+            }
+        });
 
 
         layout0 = findViewById(R.id.layout0);
@@ -191,6 +200,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public void onBackPressed() {
         stopService(new Intent(this, music_service.class));
+        finishAffinity();
         super.onBackPressed();
     }
 

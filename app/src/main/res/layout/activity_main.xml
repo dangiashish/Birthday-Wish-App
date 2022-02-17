@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/lite_orange"
     tools:context=".MainActivity">
 
 
@@ -300,13 +301,13 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/switcherLayout"
                 android:layout_centerHorizontal="true"
-                android:gravity="center"
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="10dp"
                 android:fontFamily="@font/freya"
+                android:gravity="center"
                 android:text="Happy Birthday Salman"
                 android:textColor="@color/purple"
-                android:textSize="45dp" />
+                android:textSize="40dp" />
 
 
             <TextView
@@ -322,8 +323,20 @@
                 android:textSize="30dp" />
 
 
+
+
+
         </RelativeLayout>
     </ScrollView>
 
+    <Button
+        android:id="@+id/btnSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:background="@android:color/transparent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        />
 
 </RelativeLayout>
