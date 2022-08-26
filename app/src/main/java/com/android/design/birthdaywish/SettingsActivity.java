@@ -28,7 +28,7 @@ public class SettingsActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Intent.ACTION_VIEW);
-                Uri url = Uri.parse("https://youtube.com/ashishdangi");
+                Uri url = Uri.parse("https://youtube.com/codebyashish");
                 intent.setData(url);
                 startActivity(intent);
             }
