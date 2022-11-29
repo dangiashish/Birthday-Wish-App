@@ -57,7 +57,7 @@
         android:id="@+id/tvBottom"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Designed &amp; Developed by AndroidDesign @Youtube"
+        android:text="Designed &amp; Developed by CodeByAshish @Youtube"
         app:layout_constraintBottom_toBottomOf="parent"
         android:textColor="@color/orange"
         android:textSize="13dp"
