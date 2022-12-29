@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
     RelativeLayout layout0, layoutW;
     ViewSwitcher logo0, logo1, logo2, logo3, logow, logox, logoy, logoz;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
