@@ -7,15 +7,38 @@
     android:background="@color/lite_orange"
     tools:context=".SettingsActivity">
 
+    <TextView
+        android:id="@+id/bdaywishText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="@string/disclaimer"
+        android:textColor="@color/green"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <LinearLayout
+        android:id="@+id/llSocial"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintBottom_toTopOf="@id/tvBottom">
 
+        <Button
+            android:id="@+id/btnInsta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:drawableLeft="@drawable/ic_instgram"
+            android:drawableTint="@color/white"
+            android:text="Connect on Instagram" />
 
         <Button
             android:id="@+id/btnGithub"
@@ -39,16 +62,6 @@
             android:drawableTint="@color/white"
             android:text="Watch Video Tutorial" />
 
-        <Button
-            android:id="@+id/btnInsta"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginStart="10dp"
-            android:layout_marginEnd="10dp"
-            android:drawableLeft="@drawable/ic_instgram"
-            android:drawableTint="@color/white"
-            android:text="Connect on Instagram" />
 
         </LinearLayout>
 
@@ -57,7 +70,7 @@
         android:id="@+id/tvBottom"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Designed &amp; Developed by CodeByAshish @Youtube"
+        android:text="Designed &amp; Developed by Ashish"
         app:layout_constraintBottom_toBottomOf="parent"
         android:textColor="@color/orange"
         android:textSize="13dp"

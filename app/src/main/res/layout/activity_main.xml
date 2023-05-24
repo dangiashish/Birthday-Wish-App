@@ -322,9 +322,6 @@
                 android:textSize="30dp" />
 
 
-
-
-
         </RelativeLayout>
     </ScrollView>
 
@@ -332,7 +329,9 @@
         android:id="@+id/btnSettings"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Settings"
+        android:text="Click here"
+        android:textAllCaps="false"
+        android:fontFamily="@font/bdaytext"
         android:background="@android:color/transparent"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
