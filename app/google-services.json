@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "303150826619",
+    "project_id": "code-by-ashish-playstore-2023",
+    "storage_bucket": "code-by-ashish-playstore-2023.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:303150826619:android:33bebba8f5aba8e9978ede",
+        "android_client_info": {
+          "package_name": "com.codebyashish.birthdaywish"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZQSyTzsqgZ-AOoXHGv5DRP75Duem7FJs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

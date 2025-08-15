@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/lite_orange"
-    tools:context=".SettingsActivity">
+    tools:context=".Activities.SettingsActivity">
 
     <TextView
         android:id="@+id/bdaywishText"
